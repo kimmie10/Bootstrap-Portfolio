@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+.bgImg {
+    height: 575px;
+    padding: 45px;
+    border-bottom: solid black 2px;
+    background: url(images/lakeburton3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(107, 29, 29);
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-link {
+    background-color: rgb(107, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-tabs {
+    padding: 10px;
+    border-color: black;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav-link:visited {
+    color: lightgray;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link:active {
+    background-color: green;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.container img {
+    float: left;
+    margin-right: 10px;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#content {
+    overflow: auto;
+    padding: 100px;
+}
+
+footer { 
+    position: relative;
+    height: 50px;
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(107, 29, 29);
+}
+
+p {
+    line-height: 2;
+}
